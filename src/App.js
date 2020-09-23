@@ -1,26 +1,20 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+// import LifeCyclePage from "./pages/LifeCyclePage";
+import PureComponentPage from "./pages/PureComponentPage";
+// import HookPage from "./pages/HookPage";
+// import FunctionComponent from "./pages/FunctionComponent";
+// import ClassComponent from "./pages/ClassComponent";
+// import ReduxPage from "./pages/ReduxPage";
+// import ReactReduxPage from "./pages/ReactReduxPage";
+// import RouterPage from "./pages/RouterPage";
+// import CustomHookPage from "./pages/CustomHookPage";
+// import UseMemoPage from "./pages/UseMemoPage";
+// import UseCallbackPage from "./pages/UseCallbackPage";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <PureComponentPage />
     </div>
   );
 }
-
-export default App;
